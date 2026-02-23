@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de Membros | IMAG.NAV</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <div class="" id="logo-header">
+                <img src="./img/logo.header.jpg" alt="img logo" class="img-nav">
+            </div>
+            <h1> IMAG.NAV </h1>
+        </div>
+        <nav class="" id="link-nav">
+            <ul>
+                <li><a href="./index.html" class="link">Inicio</a></li>
+                <li><a href="./Modelos.html" class="link">Modelos</a></li>
+                <li><a href="./contatos.html" class="link">Contatos</a></li>
+                <li><a href="./sobre.html" class="link">Sobre</a></li>
+                <li><a href="./ajuda.html" class="link">Ajuda</a></li>
+                <li><a href="./membros.html" class="link nav-button-special">Membros</a></li>
+            </ul>
+
+            <a href="./carrinho.html" class="cart-btn"><img src="./icons/carrinho-de-compras-de-design-xadrez.png"
+                    alt="img carrinho"></a>
+        </nav>
+    </header>
+
+    <!-- Main com Flexbox para centralizar a caixa de login na tela -->
+    <main style="display: flex; justify-content: center; align-items: center; min-height: 80vh; padding: 20px;">
+
+        <!-- Reutilizando a classe contact-form-wrapper para manter o estilo de vidro -->
+        <section class="contact-form-wrapper" style="width: 100%; max-width: 400px;">
+            <div style="text-align: center; margin-bottom: 30px;">
+                <h2 style="color: white; font-size: 28px; font-weight: 700;">Login</h2>
+                <p style="color: #e9d5ff; margin-top: 10px;">Bem-vindo de volta!</p>
+            </div>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="login" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" class="login" id="password" name="password" placeholder="Sua senha" required>
+                </div>
+
+                <button type="submit" class="submit-btn" style="width: 100%; margin-top: 10px;">Entrar</button>
+
+                <div style="text-align: center; margin-top: 20px;">
+                    <a href="#" style="color: #e9d5ff; text-decoration: none; font-size: 14px; opacity: 0.8;">Esqueceu a
+                        senha?</a>
+                </div>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>

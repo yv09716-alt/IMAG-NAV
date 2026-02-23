@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Carrinho | IMAG.NAV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <div class="" id="logo-header">
+                <img src="./img/logo.header.jpg" alt="img logo" class="img-nav">
+            </div>
+            <h1> IMAG.NAV </h1>
+        </div>
+        <nav class="" id="link-nav">
+            <ul>
+                <li><a href="./index.html" class="link">Inicio</a></li>
+                <li><a href="./Modelos.html" class="link">Modelos</a></li>
+                <li><a href="./contatos.html" class="link">Contatos</a></li>
+                <li><a href="./sobre.html" class="link">Sobre</a></li>
+                <li><a href="./ajuda.html" class="link">Ajuda</a></li>
+                <li><a href="./membros.html" class="link nav-button-special">Membros</a></li>
+            </ul>
+
+            <a href="./carrinho.html" class="cart-btn"><img src="./icons/carrinho-de-compras-de-design-xadrez.png" alt="img carrinho"></a>
+        </nav>
+    </header>
+
+    <main class="cart-page-container">
+        <div class="cart-header">
+            <h1>Meu Carrinho</h1>
+        </div>
+
+        <!-- Itens no Carrinho -->
+        <div class="cart-items-list">
+            <!-- Exemplo de Item no Carrinho -->
+            <div class="cart-item">
+                <div class="cart-item-img">
+                    <img src="./img/imag.main1.png" alt="Landing Page Vendas">
+                </div>
+                <div class="cart-item-details">
+                    <h3>Landing Page Vendas</h3>
+                    <p>Um modelo de alta conversão para seus produtos.</p>
+                </div>
+                <div class="cart-item-quantity">
+                    <button class="quantity-btn">-</button>
+                    <input type="text" value="1" readonly>
+                    <button class="quantity-btn">+</button>
+                </div>
+                <div class="cart-item-price">
+                    <p>R$ 499,90</p>
+                </div>
+                <div class="cart-item-remove">
+                    <button class="remove-btn">×</button>
+                </div>
+            </div>
+            <!-- Fim do Exemplo -->
+        </div>
+
+        <!-- Resumo do Pedido -->
+        <div class="cart-summary">
+            <h2>Resumo do Pedido</h2>
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span>R$ 499,90</span>
+            </div>
+            <div class="summary-row">
+                <span>Frete</span>
+                <span>Grátis</span>
+            </div>
+            <div class="summary-total">
+                <span>Total</span>
+                <span>R$ 499,90</span>
+            </div>
+            <button class="checkout-btn">Finalizar Compra</button>
+        </div>
+
+        <!-- Sugestões -->
+        <section class="shelf-container" style="padding-top: 60px;">
+            <div class="shelf-header">
+                <h2>Sugestões para você</h2>
+            </div>
+            <div class="shelf-grid">
+                <!-- Produto Sugerido 1 -->
+                <div class="product-card">
+                    <img src="./img/imag.main1.png" alt="Landing Page Institucional">
+                    <div class="product-info">
+                        <h3>Institucional Premium</h3>
+                        <button class="product-btn">Ver Detalhes</button>
+                    </div>
+                </div>
+                <!-- Produto Sugerido 2 -->
+                <div class="product-card">
+                    <img src="./img/imag.main1.png" alt="E-commerce Start">
+                    <div class="product-info">
+                        <h3>E-commerce Start</h3>
+                        <button class="product-btn">Ver Detalhes</button>
+                    </div>
+                </div>
+                <!-- Produto Sugerido 3 -->
+                <div class="product-card">
+                    <img src="./img/imag.main1.png" alt="Landing Page Vendas">
+                    <div class="product-info">
+                        <h3>Landing Page Vendas</h3>
+                        <button class="product-btn">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos | IMAG.NAV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <div class="" id="logo-header">
+                <img src="./img/logo.header.jpg" alt="img logo" class="img-nav">
+            </div>
+            <h1> IMAG.NAV </h1>
+        </div>
+        <nav class="" id="link-nav">
+            <ul>
+                <li><a href="./index.html" class="link">Inicio</a></li>
+                <li><a href="./Modelos.html" class="link">Modelos</a></li>
+                <li><a href="./contatos.html" class="link">Contatos</a></li>
+                <li><a href="./sobre.html" class="link">Sobre</a></li>
+                <li><a href="./ajuda.html" class="link">Ajuda</a></li>
+                <li><a href="./membros.html" class="link nav-button-special">Membros</a></li>
+            </ul>
+
+            <a href="./carrinho.html" class="cart-btn"><img src="./icons/carrinho-de-compras-de-design-xadrez.png" alt="img carrinho"></a>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+        <section class="contact-section">
+            <div class="contact-header">
+                <h1>Entre em <span class="span1">Contato</span> com a gente</h1>
+                <p>Tem alguma dúvida? Quer conhecer melhor nossos serviços? Preencha o formulário abaixo e nossa equipe irá responder em breve.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Informações de Contato</h2>
+                    
+                    <div class="contact-item">
+                        <h3>📧 Email</h3>
+                        <p>contato@imagnav.com.br</p>
+                        <p>suporte@imagnav.com.br</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h3>📞 Telefone</h3>
+                        <p>(11) 9999-9999</p>
+                        <p>(11) 3333-3333</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h3>📍 Endereço</h3>
+                        <p>São Paulo, SP</p>
+                        <p>Brasil</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <h3>🕐 Horário de Atendimento</h3>
+                        <p>Segunda a Sexta: 9h às 18h</p>
+                        <p>Sábado: 9h às 13h</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(11) 9999-9999">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Selecione um assunto</option>
+                                <option value="duvida">Dúvida sobre serviços</option>
+                                <option value="orcamento">Solicitação de orçamento</option>
+                                <option value="reclamacao">Reclamação</option>
+                                <option value="sugestao">Sugestão</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" placeholder="Digite sua mensagem aqui..." rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us">
+            <h2>Por que Choose a <span class="span2">IMAG.NAV</span>?</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Resposta Rápida</h3>
+                    <p>Respondemos em até 24 horas</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Foco no Cliente</h3>
+                    <p>Sua satisfação é nossa prioridade</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3>Soluções Criativas</h3>
+                    <p>Ideias personalizadas para seu negócio</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Qualidade Premium</h3>
+                    <p>Padrão de excelência em tudo</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
