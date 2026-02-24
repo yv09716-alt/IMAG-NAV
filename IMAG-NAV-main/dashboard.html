@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Membro | IMAG.NAV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <div class="" id="logo-header">
+                <img src="./img/logo.header.jpg" alt="img logo" class="img-nav">
+            </div>
+            <h1> IMAG.NAV </h1>
+        </div>
+        <nav class="" id="link-nav">
+            <ul>
+                <li><a href="./index.html" class="link">Inicio</a></li>
+                <li><a href="./modelos.html" class="link">Modelos</a></li>
+                <li><a href="./dashboard.html" class="link nav-button-special">Meu Painel</a></li>
+                <li><a href="./index.html" class="link" style="font-size: 12px; opacity: 0.7;">Sair</a></li>
+            </ul>
+
+            <div class="user-profile-icon">
+                <img src="./icons/mao_branco.png" alt="User" style="width: 30px; height: 30px; background: rgba(255,255,255,0.2); border-radius: 50%; padding: 5px;">
+            </div>
+        </nav>
+    </header>
+
+    <main class="dashboard-container">
+        
+        <div class="dashboard-layout">
+            <!-- Sidebar Esquerda -->
+            <aside class="dashboard-sidebar">
+                <!-- Membros Online -->
+                <div class="sidebar-section">
+                    <h3>🟢 Membros Online (8)</h3>
+                    <ul class="members-list">
+                        <li class="member-item">
+                            <div class="member-avatar"><div class="status-dot"></div></div>
+                            <span>Ana Silva</span>
+                        </li>
+                        <li class="member-item">
+                            <div class="member-avatar"><div class="status-dot"></div></div>
+                            <span>Carlos Dev</span>
+                        </li>
+                        <li class="member-item">
+                            <div class="member-avatar"><div class="status-dot"></div></div>
+                            <span>Marina UI</span>
+                        </li>
+                        <li class="member-item">
+                            <div class="member-avatar"><div class="status-dot"></div></div>
+                            <span>Pedro Tech</span>
+                        </li>
+                        <li class="member-item">
+                            <div class="member-avatar"><div class="status-dot"></div></div>
+                            <span>Julia Mkt</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Chat da Comunidade -->
+                <div class="sidebar-section chat-container">
+                    <h3>💬 Chat da Comunidade</h3>
+                    <div class="chat-messages">
+                        <div class="chat-msg">
+                            <strong>Carlos Dev</strong>
+                            Alguém já testou o novo modelo de E-commerce?
+                        </div>
+                        <div class="chat-msg">
+                            <strong>Ana Silva</strong>
+                            Sim! Ficou incrível, a conversão aumentou muito.
+                        </div>
+                        <div class="chat-msg">
+                            <strong>Suporte IMAG</strong>
+                            Pessoal, manutenção agendada para sábado às 23h.
+                        </div>
+                        <div class="chat-msg">
+                            <strong>Pedro Tech</strong>
+                            Anotado! 👍
+                        </div>
+                    </div>
+                    <div class="chat-input-area">
+                        <input type="text" placeholder="Digite..." style="width: 100%; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.2); border-radius: 6px; padding: 8px; color: white;">
+                        <button style="background: #5f1d87; border: none; border-radius: 6px; padding: 0 10px; cursor: pointer; color: white;">➤</button>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Conteúdo Principal (Direita) -->
+            <div class="dashboard-content">
+        <!-- 1. Visão Geral -->
+        <section class="dashboard-section">
+            <div class="dashboard-header">
+                <h1>Olá, <span class="span1">Membro</span></h1>
+                <p>Aqui está o resumo das suas atividades hoje.</p>
+            </div>
+
+            <div class="overview-grid">
+                <div class="dash-card notification-card">
+                    <h3>🔔 Notificações</h3>
+                    <ul class="notification-list">
+                        <li>Seu projeto "Landing Page Vendas" foi aprovado.</li>
+                        <li>Nova mensagem do suporte.</li>
+                        <li>Manutenção programada para Sábado.</li>
+                    </ul>
+                </div>
+                
+                <div class="dash-card news-card">
+                    <h3>📰 Novidades</h3>
+                    <div class="news-item">
+                        <strong>Novo Modelo Disponível</strong>
+                        <p>Confira o template "E-commerce Pro" na loja.</p>
+                    </div>
+                </div>
+
+                <div class="dash-card shortcuts-card">
+                    <h3>⚡ Atalhos Rápidos</h3>
+                    <div class="shortcuts-buttons">
+                        <button class="dash-btn">Novo Projeto</button>
+                        <button class="dash-btn">Suporte</button>
+                        <button class="dash-btn">Editar Perfil</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Meus Projetos -->
+        <section class="dashboard-section">
+            <h2>Meus <span class="span1">Projetos</span></h2>
+            <div class="projects-grid">
+                <!-- Projeto 1 -->
+                <div class="project-card-dash">
+                    <div class="project-status status-active">Ativo</div>
+                    <h3>Landing Page Vendas</h3>
+                    <p>Atualizado há 2 horas</p>
+                    <div class="progress-bar"><div class="fill" style="width: 75%"></div></div>
+                    <button class="dash-btn-outline">Acessar</button>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="project-card-dash">
+                    <div class="project-status status-review">Em Revisão</div>
+                    <h3>Site Institucional</h3>
+                    <p>Atualizado ontem</p>
+                    <div class="progress-bar"><div class="fill" style="width: 90%"></div></div>
+                    <button class="dash-btn-outline">Acessar</button>
+                </div>
+                <!-- Adicionar Novo -->
+                <div class="project-card-dash add-new">
+                    <span>+</span>
+                    <p>Criar Novo Projeto</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Agenda / Calendário -->
+        <section class="dashboard-section">
+            <h2>Agenda e <span class="span1">Eventos</span></h2>
+            <div class="calendar-wrapper">
+                <div class="calendar-view dash-card">
+                    <div class="calendar-header">
+                        <button>&lt;</button>
+                        <h4>Outubro 2023</h4>
+                        <button>&gt;</button>
+                    </div>
+                    <div class="calendar-grid">
+                        <!-- Dias da semana -->
+                        <div class="day-name">D</div><div class="day-name">S</div><div class="day-name">T</div><div class="day-name">Q</div><div class="day-name">Q</div><div class="day-name">S</div><div class="day-name">S</div>
+                        <!-- Dias (Exemplo estático) -->
+                        <div class="day empty"></div><div class="day empty"></div><div class="day">1</div><div class="day">2</div><div class="day">3</div><div class="day">4</div><div class="day">5</div>
+                        <div class="day">6</div><div class="day">7</div><div class="day event-day">8</div><div class="day">9</div><div class="day">10</div><div class="day">11</div><div class="day">12</div>
+                        <div class="day">13</div><div class="day">14</div><div class="day">15</div><div class="day event-day">16</div><div class="day">17</div><div class="day active-day">18</div><div class="day">19</div>
+                        <div class="day">20</div><div class="day">21</div><div class="day">22</div><div class="day">23</div><div class="day">24</div><div class="day">25</div><div class="day">26</div>
+                        <div class="day">27</div><div class="day">28</div><div class="day">29</div><div class="day">30</div><div class="day">31</div>
+                    </div>
+                </div>
+                <div class="events-list dash-card">
+                    <h3>Próximos Eventos</h3>
+                    <ul class="event-items">
+                        <li class="event-item">
+                            <div class="event-date">16 OUT</div>
+                            <div class="event-info">
+                                <strong>Workshop de Design</strong>
+                                <span>14:00 - Online (Moderador)</span>
+                            </div>
+                        </li>
+                        <li class="event-item">
+                            <div class="event-date">18 OUT</div>
+                            <div class="event-info">
+                                <strong>Entrega do Projeto Alpha</strong>
+                                <span>18:00 - Prazo Final</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="dash-btn" style="width: 100%; margin-top: 15px;">+ Marcar Compromisso</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Status das Atividades (Kanban) -->
+        <section class="dashboard-section">
+            <h2>Status das <span class="span1">Atividades</span></h2>
+            <div class="kanban-board">
+                <div class="kanban-column">
+                    <div class="kanban-header todo">A Fazer</div>
+                    <div class="kanban-card">Enviar briefing inicial</div>
+                    <div class="kanban-card">Escolher paleta de cores</div>
+                </div>
+                <div class="kanban-column">
+                    <div class="kanban-header progress">Em Progresso</div>
+                    <div class="kanban-card">Desenvolvimento Home</div>
+                </div>
+                <div class="kanban-column">
+                    <div class="kanban-header done">Concluído</div>
+                    <div class="kanban-card">Contratação do plano</div>
+                    <div class="kanban-card">Configuração de domínio</div>
+                </div>
+            </div>
+        </section>
+
+            </div> <!-- Fim dashboard-content -->
+        </div> <!-- Fim dashboard-layout -->
+    </main>
+</body>
+</html>
