@@ -12,6 +12,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body {
     font-family: "Clarkson", Helvetica, sans-serif;
     background: linear-gradient(135deg, #6b21a8 0%, #4c1d95 50%, #581c87 100%);
@@ -45,10 +46,10 @@ header {
     width: 100%;
     height: auto;
     border-radius: 50%;
-    
+
 }
 
-.img-nav:hover{
+.img-nav:hover {
     transition: all 0.5s ease-in-out;
     box-shadow: 0 0 20px #e900dd;
 }
@@ -213,14 +214,15 @@ header {
     margin-bottom: 20px;
     color: #ffffff;
 
-    animation: 1.5s cubic-bezier(.23, 1, .32, 1) .4s forwards skewAnimation;
+    animation: 1.5s cubic-bezier(.23, 1, .28, 1) .4s forwards skewAnimation;
     transform: rotateY(-24deg)rotate(-8deg);
+
 }
 
 @keyframes skewAnimation {
     0% {
         opacity: 0;
-        transform: rotateY(-24deg)rotate(-8deg)
+        transform: rotateY(-24deg)rotate(-25deg)
     }
 
     to {
@@ -230,10 +232,15 @@ header {
 }
 
 .principal-left h1 .span1 {
-    background: linear-gradient(135deg, #400064 0%, #9b80b8 100%);
+    background: linear-gradient(135deg, #9907ee 0%, #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.principal-left h1:hover {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 20px #e900dd;
 }
 
 .principal-left p {
@@ -376,7 +383,7 @@ header {
 
 }
 
-.principal-middle img:hover{
+.principal-middle img:hover {
     transition: all 0.5s ease-in-out;
     box-shadow: 0 0 20px #e900dd;
 }
@@ -662,7 +669,7 @@ header {
 
 .contact-form-wrapper {
     background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);;
     border-radius: 20px;
     padding: 40px;
     backdrop-filter: blur(10px);
@@ -1111,4 +1118,10 @@ header {
 .faq-contact-prompt .button:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 30px rgba(95, 29, 135, 0.4);
+}
+
+.login-screen1 {
+    height: 80px;
+    border-radius: 10px;
+    
 }
